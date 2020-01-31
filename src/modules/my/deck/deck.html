@@ -1,7 +1,11 @@
 <template>
     <div>
         <p>Cards Remaining: {cardsLeft}</p>
+        <template if:true={cardsLeft}>
+            <my-card></my-card>
+        </template>
         <button name="Draw" onclick={handleDraw}>Draw</button>
+        <button name="Burn" onclick={handleBurn}>Burn</button>
         <button name="Shuffle" onclick={shuffleClick}>Shuffle</button>
     </div>
 </template>

@@ -34,6 +34,18 @@ export default class Deck extends LightningElement {
         this.dispatchEvent(event);
     }
 
+    handleBurn() {
+        if(this.deck.length === 0) {
+            return;
+        }
+
+        this.deck.pop();
+        const event = new CustomEvent<void>('burn', {
+            bubbles: true
+        });
+        this.dispatchEvent(event);
+    }
+
     shuffleClick() {
         this.makeNewDeck();
         this.shuffleDeck();

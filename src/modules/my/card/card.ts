@@ -19,7 +19,7 @@ export default class Card extends LightningElement {
             case 'C':
                 return 'black';
             default:
-                return '';
+                return 'back';
         }
     }
 

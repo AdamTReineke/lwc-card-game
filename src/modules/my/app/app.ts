@@ -21,5 +21,13 @@ export default class App extends LightningElement {
         this.template.addEventListener('shuffle', () => {
             this.drawnCards.length = 0;
         });
+
+        this.template.addEventListener('burn', () => {
+            this.drawnCards.push({
+                index: this.drawnCards.length,
+                suit: '',
+                value: '',
+            });
+        });
     }
 }
