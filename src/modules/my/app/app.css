@@ -1,9 +1,9 @@
 .table {
-    display:block;
-    clear:left;
-    background-color:green;
-    overflow:auto;
-    border-radius:15px;
-    padding:10px;
+    display: block;
+    clear: left;
+    background-color: green;
+    overflow: auto;
+    border-radius: 15px;
+    padding: 10px;
     min-height: 146px;
 }

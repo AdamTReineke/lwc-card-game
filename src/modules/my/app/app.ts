@@ -26,7 +26,7 @@ export default class App extends LightningElement {
             this.drawnCards.push({
                 index: this.drawnCards.length,
                 suit: '',
-                value: '',
+                value: ''
             });
         });
     }

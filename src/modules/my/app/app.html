@@ -2,7 +2,11 @@
     <my-deck></my-deck>
     <div class="table">
         <template for:each={drawnCards} for:item="card">
-            <my-card key={card.index} suit={card.suit} value={card.value}></my-card>
+            <my-card
+                key={card.index}
+                suit={card.suit}
+                value={card.value}
+            ></my-card>
         </template>
     </div>
 </template>

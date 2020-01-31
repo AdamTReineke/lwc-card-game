@@ -35,7 +35,7 @@ export default class Deck extends LightningElement {
     }
 
     handleBurn() {
-        if(this.deck.length === 0) {
+        if (this.deck.length === 0) {
             return;
         }
 

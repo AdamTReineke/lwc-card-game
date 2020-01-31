@@ -1,7 +1,7 @@
 /** Poker cards are 2.5 x 3.5 inches */
 /** Scale with 20px border on each side: 100 x 140px */
 p {
-    background-color:white;
+    background-color: white;
     display: block;
     width: 60px;
     height: 100px;
@@ -12,7 +12,7 @@ p {
     line-height: 1em;
     margin: 0 3px 0 0;
     white-space: nowrap;
-    float:left;
+    float: left;
 }
 
 .red {
@@ -23,9 +23,9 @@ p {
     color: black;
 }
 .back {
-    background-image:url('../../../resources/lwc.png');
-    background-color:lightblue;
+    background-image: url('../../../resources/lwc.png');
+    background-color: lightblue;
     background-repeat: no-repeat;
-    background-size:80px 80px;
+    background-size: 80px 80px;
     background-position: center;
 }
