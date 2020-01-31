@@ -1,4 +1,4 @@
-# poker-app
+# lwc-card-game
 
 Here will be some information about the app.
 
